@@ -1,0 +1,77 @@
+
+.login-container {
+    backdrop-filter: blur(10px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2% 2%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+label {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #000000;
+    align-self: flex-start;
+}
+
+.login-container h2 {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+.text-box {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 0.5px solid grey;
+    border-radius: 5px;
+    background: transparent;
+}
+
+.login-btn {
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Sans', Arial, sans-serif;
+    background-color: #007BFF;
+    color: white;
+    padding: 13px 15px;
+    margin-top: 2rem;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 200px;
+}
+
+.reg-btn {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 13px;
+    border: none;
+    border-radius: 5px;
+    background-color: #28A745;
+    color: white;
+    cursor: pointer;
+    padding: 5px 20px;
+}
+
+.login-btn:hover, .reg-btn:hover {
+    background-color: #0056b3;
+}
+
+.login-p {
+    margin-top: 3rem;
+    color: #333;
+    font-size: 16px;
+}
+
+.error {
+    height: fit-content;
+    color: red;
+}

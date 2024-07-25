@@ -1,0 +1,91 @@
+.contact-h1
+{
+  text-align: center;
+  color: black;
+  padding: 2% 0;
+}
+.contact-p1
+{
+  text-align:center;
+  white-space:pre-wrap;
+  width:80%;
+  justify-content: center;
+  margin: 5% auto;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.line
+{
+  border-bottom: 1px solid lightgray;
+  width: 800px;
+  margin: 0 23%;
+} 
+.contact {
+    padding: 40px 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact h2 {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    color: #ff6347;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .contact p {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    color: #555;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group label {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    font-family: 'Arial', sans-serif;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .form-group textarea {
+    resize: vertical;
+    min-height: 100px;
+  }
+  
+  button[type="submit"] {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-color: #ff6347;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #e5533d;
+  }
+  
