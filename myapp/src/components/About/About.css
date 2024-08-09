@@ -1,0 +1,67 @@
+.about {
+    padding: 40px 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+  }
+  
+  .about-h2 {
+    font-family: "Metal Mania", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 36px;
+  }
+  
+  .about p {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 26px;
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  .about h3 {
+    font-weight: 400;
+    font-family: "Metal Mania", system-ui;
+    font-size: 36px;
+    text-align: center;
+}
+.sunil-img
+{
+  background-image: url('../../assets/Author/sunil.jpg');
+  height: 150px;
+  width: 150px;
+  backface-visibility: visible;
+  background-size: cover;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+.surya-img
+{
+  background-image: url('../../assets/Author/surya-beach.jpg');
+  height: 150px;
+  width: 150px;
+  backface-visibility: visible;
+  background-position:  center;
+  background-size: cover;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+.yokesh-img
+{
+  background-image: url('../../assets/Author/yoki.jpg');
+  height: 150px;
+  width: 150px;
+  backface-visibility: visible;
+  background-size: cover;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+.creater-container
+{
+  display: flex;
+  justify-content: space-around;
+}
+.creater-card
+{
+    text-align: center;
+}
